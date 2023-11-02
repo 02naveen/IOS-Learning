@@ -123,11 +123,26 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYu-qK-lQP">
+                                <rect key="frame" x="54" y="481" width="283" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.64123218910000002" green="0.436743196" blue="0.38414332039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <color key="tintColor" red="0.2112598718" green="0.77649368519999995" blue="0.02920753295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                <state key="normal" title="play"/>
+                                <connections>
+                                    <action selector="play:" destination="CVb-Rm-6p7" eventType="touchUpInside" id="bRA-54-kBj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="z0W-RV-iQG"/>
                     </view>
                     <navigationItem key="navigationItem" id="6ir-TQ-XAJ"/>
+                    <connections>
+                        <outlet property="play" destination="FYu-qK-lQP" id="1up-bw-2ij"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0G0-8e-uqu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

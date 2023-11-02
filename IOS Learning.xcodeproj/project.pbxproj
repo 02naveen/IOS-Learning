@@ -15,6 +15,7 @@
 		F9240A322AF399B20062F4E8 /* IOS_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240A312AF399B20062F4E8 /* IOS_LearningTests.swift */; };
 		F9240A3D2AF399B20062F4E8 /* IOS_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240A3C2AF399B20062F4E8 /* IOS_LearningUITests.swift */; };
 		F9240A4B2AF3A2FC0062F4E8 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9240A4A2AF3A2FC0062F4E8 /* NewView.swift */; };
+		F9240A4D2AF3BA5B0062F4E8 /* Ram.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F9240A4C2AF3B9000062F4E8 /* Ram.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F9240A3C2AF399B20062F4E8 /* IOS_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_LearningUITests.swift; sourceTree = "<group>"; };
 		F9240A3E2AF399B20062F4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9240A4A2AF3A2FC0062F4E8 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		F9240A4C2AF3B9000062F4E8 /* Ram.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ram.mp4; path = ../../../Downloads/Ram.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				F9240A202AF399B00062F4E8 /* Main.storyboard */,
 				F9240A232AF399B20062F4E8 /* Assets.xcassets */,
 				F9240A252AF399B20062F4E8 /* LaunchScreen.storyboard */,
+				F9240A4C2AF3B9000062F4E8 /* Ram.mp4 */,
 				F9240A4A2AF3A2FC0062F4E8 /* NewView.swift */,
 				F9240A282AF399B20062F4E8 /* Info.plist */,
 			);
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9240A4D2AF3BA5B0062F4E8 /* Ram.mp4 in Resources */,
 				F9240A272AF399B20062F4E8 /* LaunchScreen.storyboard in Resources */,
 				F9240A242AF399B20062F4E8 /* Assets.xcassets in Resources */,
 				F9240A222AF399B00062F4E8 /* Main.storyboard in Resources */,

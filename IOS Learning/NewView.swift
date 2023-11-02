@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class NewView: UIViewController {
 
@@ -16,19 +18,19 @@ class NewView: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-
+    @IBOutlet weak var play: UIButton!
+    
+    @IBAction func play(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "V", ofType: "mp4")
+        let myurl = URL(fileURLWithPath: path!)
+        let vlc = AVPlayer(url: myurl)
+        let myvlc = AVPlayerViewController()
+        myvlc.player = vlc
+        present(myvlc, animated: true, completion: nil)
+        
+    }
+    
 }
 
 
-extension NewView: UITableViewDelegate, UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
-    
-    
-}
+
